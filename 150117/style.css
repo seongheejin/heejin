@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: white;
+}
+
+
+/*
+a {
+  display: block;
+  width:150px;
+  padding:15px;
+  color: #fff;
+  text-decoration: none;
+  text-align:center;
+  transition:1s all ease;
+  border-top:2px solid transparent;
+  border-bottom:2px solid transparent;
+}
+a:hover {
+  letter-spacing: 3px;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+div{
+    color:#fff;
+    transition: 1s all ease;
+}
+a:hover + div {
+    color: blue;
+}
+a:hover ~ div{
+    color:hotpink;
+}
+*/
+
+
+/*
+ul, li{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+li {
+  padding:15px;
+}
+ul {
+  position:fixed;
+  left:0;
+  top:-300px;
+  -webkit-animation:10s rolling infinite;
+  animation:10s rolling infinite;
+}
+@-webkit-keyframes rolling{
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -300px;
+  }
+}
+@keyframes rolling{
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -300px;
+  }
+}
+*/
+
+
+div {
+  width:150px;
+  height:150px;
+  background:#666;
+  -webkit-animation:3s rotateAnimation;
+  animation:3s rotateAnimation;
+}
+@-webkit-keyframes rotateAnimation{
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+@keyframes rotateAnimation{
+  0% {
+    transform:rotate(0);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
